@@ -1,4 +1,5 @@
 ﻿using System;
+using static oop_lesson5_eightball.nested.EightBall;
 
 namespace oop_lesson5_eightball
 {
@@ -6,7 +7,7 @@ namespace oop_lesson5_eightball
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            messagesEightBall();
         }
     }
 }

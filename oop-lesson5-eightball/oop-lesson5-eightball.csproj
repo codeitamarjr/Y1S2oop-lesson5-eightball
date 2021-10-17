@@ -6,4 +6,10 @@
     <RootNamespace>oop_lesson5_eightball</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="nested\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="nested\" />
+  </ItemGroup>
 </Project>
