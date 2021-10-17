@@ -7,13 +7,13 @@ namespace oop_lesson5_eightball.nested
         private static int randomNumber() //Private to be used just for the EightBall Class/Method
         {
             Random random = new Random();
-            int randomNumber =  random.Next(20);
+            int randomNumber =  random.Next(20); //generate a random number from 1 up to 20
             return randomNumber;
         }
 
         public static void messagesEightBall()
         {
-            ArrayList messages = new ArrayList();
+            ArrayList messages = new ArrayList(); //create an arraylist and and each message
             messages.Add("It is certain");
             messages.Add("It is decidedly so.");
             messages.Add("Without a doubt.");
@@ -35,7 +35,7 @@ namespace oop_lesson5_eightball.nested
             messages.Add("Outlook not so good.");
             messages.Add("Very doubtful.");
 
-            Console.WriteLine(messages[EightBall.randomNumber()]);
+            Console.WriteLine(messages[EightBall.randomNumber()]); //print the randow addres of the ArrayList message.
 
         }
     }
